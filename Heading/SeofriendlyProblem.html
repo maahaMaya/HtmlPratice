@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function bodyLoad(){
+            alert("Total No of " + document.getElementsByTagName("h2").length);
+            //as we webpage it has 3 h2 elemets but it shows 3
+        }
+    </script>
+</head>
+<body onload="bodyLoad()">
+    <h1>HTML</h1>
+    it is an markup language.
+    <h2>Normal ELements</h2>
+    They return any direction in callback.
+    <h2>Void ELements</h2>
+    Self ending
+    <br>
+    <font size="5"><b>Rc data Elements</b></font>
+    They will not alllow content within the context.
+</body>
+</html>
