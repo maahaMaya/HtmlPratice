@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Element</title>
+    <style>
+        header{
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            font-size: 25px;
+            text-align: center;
+        } 
+        footer{
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            font-size: 25px;
+            text-align: center;
+        } 
+        section{
+            height:  auto;
+            display: grid;
+            /* grid-template-columns: 200px 800px 200px; */
+            grid-template-columns: 2fr 8fr 2fr;
+            margin-top: 20px;
+        }
+        nav div{
+            border: 2px black solid;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 120px;
+            padding: 10px;
+            font-size: 20px;
+            background-color: tomato;
+            color: white;
+        }
+        aside{
+            width: 100px;
+            height: 50px;
+            border: 2px dotted black;
+            text-align: center;
+        }
+        article{
+            width: 200px;
+            text-align: center;
+            background-color: darkcyan;
+            color: aliceblue;
+            padding: 5px;
+            font-size: 25px;
+        }
+        main div{
+            font-size: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Amazon Shopping
+    </header>
+    <section>
+        <nav>
+            <menu>
+                <div>Electronic</div>
+                <div>Books</div>
+                <div>Garden</div>
+                <div>Stationery</div>
+            </menu>
+        </nav>
+        <main>
+            <dialog>Any help?</dialog>
+            <div>Welcone to Online shopping store...</div>
+            <figure>
+                Given Image
+                <figcaption>Samsung Tv</figcaption>
+            </figure>
+            <article>
+                70% off on books
+            </article>
+        </main>
+        <aside>
+            Ads. here
+        </aside>
+    </section>
+    <footer>
+        &copy; Copyright 2023
+    </footer>
+</body>
+</html>
