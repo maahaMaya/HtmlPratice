@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        #card{
+            width: 200px;
+            box-shadow: 2px 3px 2px gray;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        button{
+            width: 100%;
+            background-color: tomato;
+            color: aliceblue;
+            font-size: 20px;
+        }
+        #card-header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <div id="card-header">
+                <h3>Headphone</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Screenshot.png" width="150" height="160">
+                <p>&#8377; 5440</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4">Add to cart</span></button>
+            </div>
+        </div>
+        <div id="card">
+            <div id="card-header">
+                <h3>Toys</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Screenshot.png" width="150" height="160">
+                <p>&#8377; 540</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4">Add to cart</span></button>
+            </div>
+        </div>
+        <div id="card">
+            <div id="card-header">
+                <h3>Camera</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Screenshot.png" width="150" height="160">
+                <p>&#8377; 7440</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4">Add to cart</span></button>
+            </div>
+        </div>
+        <div id="card">
+            <div id="card-header">
+                <h3>Phone</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Screenshot.png" width="150" height="160">
+                <p>&#8377; 5980</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4">Add to cart</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
