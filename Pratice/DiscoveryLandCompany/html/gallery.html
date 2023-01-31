@@ -7,6 +7,9 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<title>Discovery Land Company</title>
 	<style src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+		#mainContainer{
+            background-color: black;
+        }
 		#navContainer{
 			width: 100vw;
             height: 65vh;
@@ -30,8 +33,9 @@
 			flex-wrap: wrap;
 		}
 		.cardContainer{
-			width: 33vw;
+			width: 33.1%;
 			height: 50%;
+			margin-left: 2px;
 		}
 		.imageContainer{
 			width: 100%;
@@ -59,15 +63,21 @@
 		.footerTextCss{
 			margin: 8% 10% 5% 0%;
 		}
+		a{
+           text-decoration: none;
+         }
+		a:hover {
+			text-decoration:underline;
+		}
 	</style>
 </head>
 <body>
-	<div class="mainContainer">
+	<div id="mainContainer">
 		<div id="navContainer">
 			<div id="textNavContainer">
 				<a class="navText" style="margin-right: 29%; font-size: 18px;">Discovery</a>
 				<a class="navText">AboutDLC</a>
-				<a class="navText">Our Worlds</a>
+				<a class="navText" href="./OurWorld.html">Our Worlds</a>
 				<a class="navText">Experiences</a>
 				<a class="navText">Gallery</a>
 				<a class="navText">Press</a>
