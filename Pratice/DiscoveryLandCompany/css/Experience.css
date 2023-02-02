@@ -1,0 +1,172 @@
+#navContainer {
+    width: 100vw;
+    height: 100vh;
+}
+*{
+    margin: 0%;
+}
+video {
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+}
+
+#textNavContainer {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 4% 5% 10%;
+}
+
+.navText {
+    padding-right: 5%;
+    color: #fff;
+}
+
+.FirstLabel {
+    background-color: #fff;
+    color: black;
+    font-family: 'GT-SECTRA';
+    
+    line-height: 1.4;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    padding: 9% 14% 9% 19%;
+    flex-direction: column;
+}
+
+.SecondContainer {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: #fff;
+    margin-bottom: 8%;
+}
+
+.SecondContainerText {
+    width: 40vw;
+    height: 100%;
+    margin: 5% 0% 5% 14%;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    font-style: initial;
+    color: rgb(123, 124, 119);
+}
+
+.SecondContainerImage {
+    width: 40vw;
+    height: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.ThirdContainer {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    position: relative;
+    background-color: rgba(243,243,243,255);
+}
+
+.ThirdContainerBackgroundBox {
+    width: 60%;
+    height: 50%;
+    background-color: rgba(197,190,164,255);
+    z-index: 1;
+    position: absolute;
+    margin: 21.5% 2% 3% 18%;
+}
+
+.ThirdContainerImage {
+    width: 75%;
+    height: 70%;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    margin-top: 5%;
+}
+
+.ThirdContainerText {
+    width: 35%;
+    height: 50%;
+    background-color: #fff;
+    color: rgb(123, 124, 119);
+    z-index: 3;
+    position: absolute;
+    margin: 12.5% 0% 0% 53.5%;
+    padding: 44px 2px 2px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FourContainer {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    position: relative;
+    background-color:rgba(243,243,243,255);
+}
+
+.FourContainerBackgroundBox {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(235, 235, 255);
+    z-index: 1;
+    position: absolute;
+    margin: 25% 2% 3% 23%;
+}
+
+.FourContainerImage {
+    width: 70%;
+    height: 75%;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    margin: 3% 0% 0% 28%;
+}
+
+.FourContainerText {
+    width: 30%;
+    height: 45%;
+    background-color: #fff;
+    z-index: 3;
+    position: absolute;
+    margin: 11% 0% 0% 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerImage{
+    background-image: url(../assests/beach.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerContainer {
+    background-color: black;
+    color: #fff;
+    width: 100vw;
+}
+
+.footerText {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerTextCss {
+    margin: 8% 10% 5% 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
