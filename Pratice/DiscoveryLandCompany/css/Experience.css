@@ -11,28 +11,30 @@ video {
     position: absolute;
 }
 
-#textNavContainer {
+#textNavContainer{
     color: #fff;
     display: flex;
     flex-wrap: wrap;
     padding: 3% 4% 5% 10%;
+    font-size: large;
 }
-
-.navText {
-    padding-right: 5%;
+.navText{
+    padding-right:5%;
     color: #fff;
 }
 
 .FirstLabel {
     background-color: #fff;
     color: black;
-    font-family: 'GT-SECTRA';
-    
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    height:40vh;
     line-height: 1.4;
     font-size: 27px;
     display: flex;
     justify-content: center;
-    padding: 9% 14% 9% 19%;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -105,21 +107,21 @@ video {
     height: 130vh;
     display: flex;
     position: relative;
-    background-color:rgba(243,243,243,255);
+    background-color: rgba(243,243,243,255);
 }
 
 .FourContainerBackgroundBox {
     width: 60%;
     height: 50%;
-    background-color: rgb(235, 235, 255);
+    background-color: rgba(197,190,164,255);
     z-index: 1;
     position: absolute;
-    margin: 25% 2% 3% 23%;
+    margin: 20% 2% 3% 24%;
 }
 
 .FourContainerImage {
-    width: 70%;
-    height: 75%;
+    width: 75%;
+    height: 70%;
     z-index: 2;
     position: absolute;
     display: flex;
@@ -127,40 +129,60 @@ video {
 }
 
 .FourContainerText {
-    width: 30%;
-    height: 45%;
+    width: 35%;
+    height: 50%;
     background-color: #fff;
+    color: rgb(123, 124, 119);
     z-index: 3;
     position: absolute;
-    margin: 11% 0% 0% 15%;
+    margin: 11% 0% 0% 10%;
     display: flex;
     flex-direction: column;
 }
 
 .footerImage{
-    background-image: url(../assests/beach.png);
+    background-image: url('https://discoverylandco.com/imager/images/9846/Barbuda-ocean-club-2_5dabbd1a34149dcaed83515ff1526a0f.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100vw;
-    height: 45vh;
+    height: 65vh;
+    color: #fff;
+    font-stretch: narrower;
+    font-weight: 000;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 23px;
 }
 
-#footerContainer {
+#footerContainer{
+    height: 48vh;
+    width: 100vw;
     background-color: black;
     color: #fff;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 100px;
 }
 
-.footerText {
+.footerText{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
-
-.footerTextCss {
-    margin: 8% 10% 5% 0%;
+.footerTextCss{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 10px;
 }
 
 a {
