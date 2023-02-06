@@ -1,0 +1,139 @@
+#navContainer {
+    width: 100vw;
+    height: 100vh;
+}
+*{
+    margin: 0%;
+}
+video{
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+}
+
+#textNavContainer{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 4% 5% 10%;
+    font-size: large;
+}
+.navText{
+    padding-right:5%;
+    color: #fff;
+}
+
+.FirstContainer{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px 25px 0px;
+}
+.ImageLabelFirstContainer{
+    width: 49%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.Label_ImageLabelFirstContainer{
+    width: 60%;
+    height: 40%;
+    padding-left: 25px;;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(123, 124, 119);
+}
+.Image_ImageLabelFirstContainer{
+    width: 65%;
+    height: 42%;
+    margin-right: 35px;
+}
+.ImageFirstContainer{
+    width: 33%;
+    height: 78%;
+    font-weight: lighter;
+}
+
+.ImageDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ImageDiv1{
+    width: 33%;
+    height: 100%;
+    background-image: url('https://discoverylandco.com/imager/images/11020/amazing-pool-2_fc98236fcd7afd38ca0fd181cf61bcb6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImageDiv2{
+    width: 33%;
+    height: 100%;
+    background-image: url('https://discoverylandco.com/imager/images/729/lifestyle_slider_190716_095537_fc98236fcd7afd38ca0fd181cf61bcb6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImageDiv3{
+    width: 33%;
+    height: 100%;
+    background-image: url('https://discoverylandco.com/imager/images/730/wellness_slider_190716_095551_90f8ce634cc6ad7a15d605007f03ee5c.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerContainer{
+    height: 48vh;
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.footerText{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.footerTextCss{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

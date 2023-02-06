@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+}
+
+#navContainer {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://discoverylandco.com/imager/images/9928/outdoor-adventures-in-the-caribbean_2cbd80a0345be3b5a0b7649a1a2d057f.jpg');
+    background-position: center;
+}
+
+#textNavContainer{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 4% 5% 10%;
+    font-size: large;
+}
+.navText{
+    padding-right:5%;
+    color: #fff;
+}
+
+.FirstLabel {
+    background-color: #fff;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    height:40vh;
+    line-height: 1.4;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.SecondContainer {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: #fff;
+    margin-bottom: 8%;
+}
+
+.SecondContainerText {
+    width: 40vw;
+    height: 100%;
+    margin: 5% 0% 5% 14%;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    font-style: initial;
+    color: rgb(123, 124, 119);
+}
+
+.SecondContainerImage {
+    width: 40vw;
+    height: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.ThirdContainer{
+    width: 100vw;
+    height: 160vh;
+    background-color: black;
+    color: #fff;
+    padding: 60px 0px 60px 0px;
+}
+.TextThirdContainer{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 25px;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ImageThirdContainer{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.FourContainer{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FiveContainer{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: 100px 0px 25px 0px;
+}
+.ImageLabelFiveContainer{
+    width: 49%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.Label_ImageLabelFiveContainer{
+    width: 60%;
+    height: 40%;
+    padding-left: 25px;;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(123, 124, 119);
+}
+.Image_ImageLabelFiveContainer{
+    width: 65%;
+    height: 42%;
+    margin-right: 35px;
+}
+.ImageFiveContainer{
+    width: 33%;
+    height: 78%;
+    font-weight: lighter;
+}
+
+.SixContainer{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SevenContainer{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px 25px 0px;
+}
+.ImageLabelSevenContainer{
+    width: 49%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.Label_ImageLabelSevenContainer{
+    width: 60%;
+    height: 40%;
+    padding-left: 25px;;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(123, 124, 119);
+}
+.Image_ImageLabelSevenContainer{
+    width: 65%;
+    height: 42%;
+    margin-right: 35px;
+}
+.ImageSevenContainer{
+    width: 33%;
+    height: 78%;
+    font-weight: lighter;
+}
+
+
+
+
+
+.ImageDiv{
+    width: 100vw;
+    height: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footerImage{
+    background-image: url('https://discoverylandco.com/imager/images/9846/Barbuda-ocean-club-2_5dabbd1a34149dcaed83515ff1526a0f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 65vh;
+    color: #fff;
+    font-stretch: narrower;
+    font-weight: 000;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 23px;
+}
+
+#footerContainer{
+    height: 48vh;
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.footerText{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.footerTextCss{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
